@@ -44,7 +44,7 @@ author_education_details:
                 visibility: true
 
 author_project_details:
-              - project_thumbnail: god.png
+              - project_thumbnail: assets/img/god.png
                 project_title: Zeus
                 project_description: A Discord Bot focused on Moderation.
                 #project_url: 
@@ -86,7 +86,7 @@ show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
 
- algolia search
+# algolia search
  algolia:
   application_id: D9WA1YKTRQ
   index_name: blog_posts # You can replace that with whatever name you want
