@@ -1,5 +1,5 @@
 title: Dhiganth Rao
-subtitle: 19 year old UG Student
+subtitle: Hi there!
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a Jekyll Theme Built For Developers
 
@@ -20,7 +20,7 @@ urls:
 
 author_logo: 
 author: Dhiganth Rao
-author_bio: Hi, my name is Dhiganth Rao. 
+author_bio: Hi, my name is Dhiganth Rao. I'm a 19 year old Undergraduate student interested in programming and Machine Learning!
 author_email: "dhiganth00@gmail.com"
 author_location: India
 # author_website_url: "https://dhiganthrao.github.io"
@@ -28,7 +28,7 @@ typewrite-text: I'm interested in Machine Learning, Deep Learning and coding!
 
 author_work_experiences:
             - company_name: Solarillion Foundation
-              company_logo: solarillion.jpg
+              company_logo: assets/img/solarillion.jpg
               company_url: https://solarillion.github.io
               designation: Undergraduate Research Assistant
               description: Working on Projects Related to Machine Learning and Deep Learning.
@@ -44,12 +44,12 @@ author_education_details:
                 visibility: true
 
 author_project_details:
-              - project_thumbnail: 
+              - project_thumbnail: god.png
                 project_title: Zeus
                 project_description: A Discord Bot focused on Moderation.
                 #project_url: 
                 visibility: true
-              - project_thumbnail: 
+              - project_thumbnail: bunkbot.png
                 project_title: BunkBot
                 project_description: A Python Script to attend your online classes for you!
                 project_url: https://github.com/dhiganthrao/bunk_bot
@@ -86,13 +86,12 @@ show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
 
-# algolia search
-# algolia:
-#  application_id: D9WA1YKTRQ
-#  index_name: blog_posts # You can replace that with whatever name you want
-#  files_to_exclude: []
-#  nodes_to_index: 'article'
-#  search_only_api_key: 58ffdd7cd6c45ec1577a7fcd789b1b9a
+ algolia search
+ algolia:
+  application_id: D9WA1YKTRQ
+  index_name: blog_posts # You can replace that with whatever name you want
+  files_to_exclude: []
+  nodes_to_index: 'article'
 
 # pagination of posts
 paginate: 4
