@@ -350,7 +350,7 @@ header {
 /* jumbotron */
 .jumbotron {
     background-color: var(--main-background-color) !important;
-    background-image: assets/img/Trend.gif;
+    background-image: url(assets/img/Trend.gif);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
